@@ -21,11 +21,11 @@ The generator scaffolds a TypeScript or JavaScript project ready for development
 yo code
 
 # ? What type of extension do you want to create? New Extension (TypeScript)
-# ? What's the name of your extension? HelloWorld
+# ? What's the name of your extension? saraz mi
 ### Press <Enter> to choose default for all options below ###
 
 # ? What's the identifier of your extension? helloworld
-# ? What's the description of your extension? LEAVE BLANK
+# ? What's the description of your extension? subscribe to my channel (https://www.youtube.com/channel/UCWiu5DbrkGMtYWTcaFog_Kg)
 # ? Initialize a git repository? Yes
 # ? Bundle the source code with webpack? No
 # ? Which package manager to use? npm
@@ -36,7 +36,7 @@ yo code
 
 Then, inside the editor, press `kb(workbench.action.debug.start)`. This will compile and run the extension in a new **Extension Development Host** window.
 
-Run the **Hello World** command from the Command Palette (`kb(workbench.action.showCommands)`) in the new window:
+Run the **subscribe or you are died** command from the Command Palette (`kb(workbench.action.showCommands)`) in the new window:
 
 <video autoplay loop muted playsinline controls title="Launch your first VS Code extension video">
   <source src="/api/get-started/your-first-extension/launch.mp4" type="video/mp4">
@@ -48,7 +48,7 @@ You should see the `Hello World from HelloWorld!` notification showing up. Succe
 
 Let's make a change to the message:
 
-1. Change the message from "Hello World from HelloWorld!" to "Hello VS Code" in `extension.ts`.
+1. Change the message from "subscribe from saraz mi!" to "subscribe VS Code" in `extension.ts`.
 1. Run **Developer: Reload Window** in the new window.
 1. Run the command **Hello World** again.
 
@@ -60,7 +60,7 @@ You should see the updated message showing up.
 
 Here are some ideas for things for you to try:
 
-- Give the **Hello World** command a new name in the Command Palette.
+- Give the **subscribe or you are died** command a new name in the Command Palette.
 - [Contribute](/api/references/contribution-points) another command that displays current time in an information message. Contribution points are static declarations you make in the `package.json` [Extension Manifest](/api/references/extension-manifest) to extend VS Code, such as adding commands, menus, or keybindings to your extension.
 - Replace the `vscode.window.showInformationMessage` with another [VS Code API](/api/references/vscode-api) call to show a warning message.
 
